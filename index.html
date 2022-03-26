@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EFECTIFINTECH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+
+        body{
+            width: 100%;
+            margin:0;
+            padding:0;
+            -webkit-font-smoothing: antialiased;
+        }
+        html{
+            width: 100%;
+        }
+
+        table{
+            font-size: 14px;
+            border: 0;
+        }
+        @media only screen and (max-width: 800px){
+            table.container.top-header-left {
+                width: 726px;
+            }
+        }
+        @media only screen and (max-width: 736px){
+            table.container.top-header-left {
+                width: 684px;
+            }
+        }
+        @media only screen and (max-width: 667px){
+            table.container.top-header-left {
+                width: 600px;
+            }
+            table.container-middle {
+                width: 565px;
+            }
+            a.logo-text img {
+                width: 100%;
+                height: inherit;
+            }
+            table.logo {
+                width: 40%;
+            }
+
+            td.ban_pad {
+                height: 48px;
+            }
+            td.future {
+                font-size: 2em !important;
+            }
+            td.ban_tex {
+                height: 18px;
+            }
+            table.ban-hei {
+                height: 315px !important;
+            }
+
+            td.ser_text {
+                line-height: 2em !important;
+                font-size: 1em !important;
+            }
+
+            td.pic_one img {
+                width: 100%;
+                height: inherit;
+            }
+
+            table.foo {
+                width: 370px;
+            }
+        }
+        @media only screen and (max-width: 640px){
+
+            table.container-middle.navi-grid {
+                width: 360px !important;
+            }
+            table.logo {
+                width: 45%;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            table.container.top-header-left {
+                width: 535px;
+            }
+            table.container-middle{
+                width: 485px;
+            }
+            table.ban-hei {
+                height: 288px !important;
+            }
+
+            table.cir_left img {
+                width: 54%;
+                height: inherit;
+            }
+
+            table.foo {
+                width: 100%;
+            }
+            td.ser_text.editable {
+                text-align: center;
+            }
+        }
+        @media only screen and (max-width: 568px){
+            /*-- w3layouts --*/
+            table.container.top-header-left {
+                width: 495px !important;
+            }
+            table.ban_info {
+                width: 400px;
+            }
+
+            td.future {
+                font-size: 1.8em !important;
+            }
+            table.ban-hei {
+                height: 258px !important;
+            }
+            table.container-middle {
+                width: 449px;
+            }
+            table.cir_left img {
+                width: 30%;
+                height: inherit;
+            }
+
+        }
+        @media only screen and (max-width: 480px){
+            .container{width: 290px !important;}
+            .container-middle {
+                width: 85% !important;
+            }
+
+            table.logo {
+                width: 33% !important;
+            }
+            table.container.top-header-left {
+                width: 422px !important;
+            }
+
+            table.container-middle.nav-head {
+                width: 350px !important;
+            }
+
+            td.pic_one img {
+                width: 70%;
+                height: inherit;
+            }
+
+            td.future {
+                font-size: 1.5em !important;
+            }
+            table.ban_info {
+                width: 348px;
+            }
+            table.logo {
+                width: 43% !important;
+            }
+
+            table.ban-hei {
+                height: 242px !important;
+            }
+            td.ban_pad {
+                height: 24px;
+            }
+            table.logo {
+                width: 54% !important;
+            }
+            td.ser_text {
+                font-size: 13px !important;
+            }
+        }
+
+        @media only screen and (max-width: 414px){
+            table.container.top-header-left {
+                width: 397px !important;
+            }
+
+            table.container.top-header-left {
+                width: 370px !important;
+            }
+            .container-middle {
+                width: 95% !important;
+            }
+
+        }
+        @media only screen and (max-width: 384px){
+
+            table.container-middle.navi-grid ,table.container.top-header-left{
+                width: 300px !important;
+            }
+            table.ban_info {
+                width: 297px;
+            }
+            td.future {
+                font-size: 1.3em !important;
+            }
+            .container-middle {
+                width: 90% !important;
+            }
+            table.ban_info {
+                width: 310px;
+            }
+            /*-- agileits --*/
+            table.container-middle.nav-head {
+                width: 340px !important;
+            }
+
+            table.ban-hei {
+                height: 207px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 320px){
+
+            table.container.top-header-left {
+                width: 284px !important;
+            }
+            table.container-middle.nav-head {
+                width: 257px !important;
+            }
+            table.ban_info {
+                width: 257px;
+            }
+            td.future {
+                font-size: 1.2em !important;
+            }
+            td.ban_tex {
+                height: 10px;
+            }
+            table.ban-hei {
+                height: 175px !important;
+            }
+            table.logo {
+                width: 56% !important;
+            }
+            td.top_mar {
+                height: 6px;
+            }
+
+            td.pic_one img {
+                width: 100%;
+            }
+            table.cir_left img {
+                width: 37%;
+            }
+
+            table.follow td {
+                text-align: center !important;
+            }
+            table.logo {
+                width: 69% !important;
+            }
+        }
+    </style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+    <tr>
+        <td width="100%" align="center" valign="top"  bgcolor="#eeeeee" style="">
+            <table>
+                <tr><td class="top_mar" height="50"></td></tr>
+            </table>
+
+            <table style="box-shadow:0px 0px 0px 0px #E0E0E0;"width="800" border="0" cellpadding="0" cellspacing="0" align="center" class="container top-header-left">
+                <!-- Header  -->
+                <tr bgcolor="dd0732">
+                    <td>
+                        <table border="0" width="650" align="center" cellpadding="0" cellspacing="0" class="container-middle nav-head">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="logo">
+                                        <tbody>
+
+                                        <tr>
+                                            <td align="right">
+                                                <a href="#" class="logo-text" style="text-decoration:none;"><img src="https://efectifintech.com.mx/img/efectifintech-logo-footer.jpg" alt=" " width="294" height="78"></a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!--End Header-->
+
+                <!--Banner  -->
+                <tr>
+                    <td>
+                        <table class="ban-hei" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background:url(https://aml-app.aml-meltsan.net/images/background.jpg); background-size:cover;" height="380">
+                            <tbody>
+                            <tr>
+                                <td class="ban_pad" height="80"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center"  style="border:2px solid #ffffff">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <table class="ban_info" border="0" cellpadding="0" cellspacing="0"  width="500">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="ban_tex" height="30"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="future" style="font-size:2.3em;color:#fff;text-transform:capitalize;font-family:Candara;text-align:center;line-height:1.5em">Travel & Expenses</td>
+                                                    </tr>
+                                                    <tr><td class="ban_tex" height="30"></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:1.3em;color:#fff;text-transform:capitalize;font-family:Candara;text-align:center">
+                                    EFECTIFINTECH
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ban_pad" height="80"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!-- END BANNER-->
+
+                <!-- BODY MAIL-->
+                <tr bgcolor="#ffffff">
+                    <td>
+                        <table border="0" width="650" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                        <tr>
+                                            <td class="ban_pad" height="80"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ser_text" align="left" style="font-size:1.1em;color:#464646;line-height:1.8em;font-family:Candara;">
+                                            Bienvenido <span>${user.username}</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="ser_text" align="Left" style="font-size:1.1em;color:#464646;line-height:1.8em;font-family:Candara;">
+                                                <p>
+                                                    Gracias por ser parte de la comunidad Efectifintech. Para disfrutar de los beneficios que nuestra App mobile te brindar&aacute;, es necesario que finalices tu proceso de onboarding y disfrutes del control que el producto de Viajes y Gastos te proporciona.
+                                                </p>
+                                                <br>
+                                                    Tu contraseña es: <span>${user.password}</span>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td class="ban_pad" height="80"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="wel_text" align="center" style="font-size:2.5em;color:#d70b03;font-family:Candara;text-align:center;font-weight:600;">
+                                                DESCARGA AQUI
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ban_pad" height="50"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class="cir_left" align="left" border="0" cellpadding="0" cellspacing="0" width="320">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="${user.href}"><img src="ios.gif" width="154"></a>
+                                                        </td>
+
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="icon" align="left" border="0" cellpadding="0" cellspacing="0" width="10">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>&nbsp;&nbsp;</td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+
+                                                <table class="cir_left" align="right" border="0" cellpadding="0" cellspacing="0" width="320">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="${user.href}"><img src="android.gif" width="154"></a>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td class="ban_pad" height="80"></td>
+                                        </tr>
+
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+                <!--END BODY MAIL -->
+
+                <!-- TERMINOS -->
+                <tr bgcolor="#f7f7f7">
+                    <td>
+                        <table border="0" width="650" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                        <tr>
+                                            <td class="ser_text" align="center" style="font-size:1.1em;color:#464646;line-height:1.8em;font-family:Candara;">
+                                                Usted esta recibiendo este mensaje porque ha sido dado de alta como usuario de la plataforma Travel & Expenses de Efectifintech.
+                                            </td>
+                                        </tr>
+
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0"  style="border-bottom:1px solid #f7f7f7">
+                        </table>
+                    </td>
+                </tr>
+                <!--END TERMINOS -->
+
+                <!--FOOTER -->
+                <tr bgcolor="#dd0732">
+                    <td>
+                        <table border="0" width="650" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                            <tr>
+                                <td height="10" style="font-size: 1px; line-height: 10px;">&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+
+                                    <table class="foo" width="375" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ser_text editable"style="font-size: 1em; color: #ffffff; line-height: 24px;">
+                                                © 2022 EFECTIFINTECH. Todos los derechos reservados
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table width="1" height="10" border="0" cellpadding="0" cellspacing="0" align="left">
+                                        <tr>
+                                            <td height="10" style="font-size: 0;line-height: 0;border-collapse: collapse;padding-left: 24px;">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td height="10" style="font-size: 1px; line-height: 10px;">&nbsp;</td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <!--END FOOTER -->
+            </table>
+            <table>
+                <tr><td class="top_mar" height="50"></td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
